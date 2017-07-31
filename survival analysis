@@ -21,3 +21,5 @@ the event of interest), up to and including time t.
 Survival curve= known as a step function 
 Curve = horizontal at all times at which there is no outcome event and each time an event of interest occurs, a vertical drop represents 
 the change in the survivor function. 
+
+*See pages 283-284
