@@ -6,10 +6,18 @@ In longitudinal studies in which there is a clear event from which the subjects 
 or treatment initiation, it might not be reasonable to assume that rates are constant, even for short periods of time. 
 For example: risk of death is v.high right after heart surgery, it falls as the patient recovers and rises again over time. 
 
-Survival analysis methods allow analysis of these rates without making assumption that they are constant.
+Survival analysis methods allow analysis of these rates without making assumption that they are constant.The assumption that hazards of 
+event of interest are constant over the time period is avoided and instead the assumption is that: the RATIO of the HAZARDS in the two groups 
+remains constant over the study period. 
+
+In other words: The hazard in the exposed group at time t DIVIDED BY the hazard in the unexposed group at time t = constant 
+This assumption is known as the PROPORTIONAL HAZARDS assumption
+
 Focus on:
 1. Hazard: the instantaneous rate at time t 
 2. Survivor function that is illustrated by the survival curve i.e. the prob that an individual will survive (will not experience 
 the event of interest), up to and including time t. 
 
-
+Survival curve= known as a step function 
+Curve = horizontal at all times at which there is no outcome event and each time an event of interest occurs, a vertical drop represents 
+the change in the survivor function. 
