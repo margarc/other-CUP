@@ -23,3 +23,5 @@ Curve = horizontal at all times at which there is no outcome event and each time
 the change in the survivor function. 
 
 *See pages 283-284
+
+The logrank test is used to make comparisons between survival curves 
