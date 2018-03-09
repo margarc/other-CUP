@@ -12,3 +12,16 @@ X <- datafile$variable_X
 Y <- datafile$variable_Y
 # execute:
 cov(X, Y)
+
+
+IQR = upper quartile - lower quartile
+IQR(datafile$variable_wanted)
+
+range = Largest value - smallest value 
+duration <- dataset&of_test
+# then execute
+max(duration) − min(duration) 
+
+
+Type II error = failure of rejecting an invalid null hypothesis (that should be rejected)
+Power of a hypothesis test = the probability of avoiding the Type II error # POWER = 1 - β 
