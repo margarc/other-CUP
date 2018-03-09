@@ -21,7 +21,8 @@ range = Largest value - smallest value
 duration <- dataset&of_test
 # then execute
 max(duration) − min(duration) 
-
+# e.g:
+max(india$vddch) - min(india$vddch)
 
 Type II error = failure of rejecting an invalid null hypothesis (that should be rejected)
 Power of a hypothesis test = the probability of avoiding the Type II error # POWER = 1 - β 
