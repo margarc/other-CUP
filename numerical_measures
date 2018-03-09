@@ -1,1 +1,14 @@
- variance = numerical measure of how the data values is dispersed around the mean. 
+variance = numerical measure of how the data values is dispersed around the mean. (SD)^2
+var(datafile$dataset_wanted) 
+
+standard deviation of an observation variable = the square root of its variance
+sd(datafile$dataset_wanted)
+
+covariance of two variables x and y in a data set measures how the two are linearly related. 
+A positive covariance would indicate a positive linear relationship between the variables
+A negative covariance = the opposite.
+
+X <- datafile$variable_X
+Y <- datafile$variable_Y
+# execute:
+cov(X, Y)
