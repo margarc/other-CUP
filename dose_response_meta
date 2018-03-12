@@ -36,3 +36,6 @@ data("alcohol_crc")
 print(alcohol_crc[1:12 ,], row.names = F, digits = 2)
 View(alcohol_crc)
 write.csv(alcohol_crc, "dre_alcohol.csv")
+
+we need: study_id, study_design, cases, person_years, logrr, se 
+
