@@ -1,5 +1,12 @@
 # install revelant packages
 
+Reading:
+
+1. Orsini 2006  
+2. Orsini 2012
+3. Hamling 2008 
+4. Greenland 1992 
+
 install.packages("dosresmeta")
 library(dosresmeta)
 install.packages("mvmeta")
