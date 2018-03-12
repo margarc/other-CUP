@@ -4,3 +4,17 @@ install.packages("dosresmeta")
 library(dosresmeta)
 install.packages("mvmeta")
 ?dosresmeta
+
+# example from package "doseresmeta R"
+# single study as follows:
+
+data("cc_ex")
+cc_ex
+print(cc_ex, row.names = F, digits = 2)
+mod.cc <- dosresmeta(formula = logrr~dose, type = "cc", cases = case, n = n, lb = lb, ub = ub, data = cc_ex)
+# execute the following to see the result of the dose-res analysis:
+summary(mod.cc)
+# exponentiate the "estimate" to find the percentage:
+exp(0.0454)
+#result:  [1] 1.046446
+# interpr: that every 1 gram/day increase in alcohol consumption is associated with a 4.6 % higher breast cancer risk 
