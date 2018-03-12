@@ -18,3 +18,8 @@ summary(mod.cc)
 exp(0.0454)
 #result:  [1] 1.046446
 # interpr: that every 1 gram/day increase in alcohol consumption is associated with a 4.6 % higher breast cancer risk 
+# then the predict function allows the user to express the log-linear trend for any different amount
+# example: set delta at 11 g/day
+predict(mod.cc, delta = 11, exp = TRUE)
+
+When we have multiple studies: 
