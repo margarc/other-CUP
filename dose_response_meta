@@ -1,0 +1,6 @@
+# install revelant packages
+
+install.packages("dosresmeta")
+library(dosresmeta)
+install.packages("mvmeta")
+?dosresmeta
