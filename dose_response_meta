@@ -30,3 +30,9 @@ exp(0.0454)
 predict(mod.cc, delta = 11, exp = TRUE)
 
 When we have multiple studies: 
+data("alcohol_crc")
+8 cohort studies in this dataset and each has 6 exposure intervals (from 0 grams/day to 45 grams/day) so 48 results 
+# see a snapshot of the dataset for the first two studies (2 studies x 6 intervals = 12 results): 
+print(alcohol_crc[1:12 ,], row.names = F, digits = 2)
+View(alcohol_crc)
+write.csv(alcohol_crc, "dre_alcohol.csv")
