@@ -1,5 +1,12 @@
 # install revelant packages
 
+install.packages("rms")
+install.packages("dosresmeta")
+library(dosresmeta)
+install.packages("mvmeta")
+?dosresmeta
+?rms
+
 Reading:
 
 1. Orsini 2006  
@@ -7,13 +14,8 @@ Reading:
 3. Hamling 2008 
 4. Greenland 1992 
 
-install.packages("dosresmeta")
-library(dosresmeta)
-install.packages("mvmeta")
-?dosresmeta
-
 # example from package "doseresmeta R"
-# single study as follows:
+# When we have a single study as follows:
 
 data("cc_ex")
 cc_ex
