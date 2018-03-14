@@ -26,3 +26,10 @@ max(india$vddch) - min(india$vddch)
 
 Type II error = failure of rejecting an invalid null hypothesis (that should be rejected)
 Power of a hypothesis test = the probability of avoiding the Type II error # POWER = 1 - β 
+
+t-test = to determine if the means of two groups are equal to each other. 
+assumption = both groups sampled from normal distributions with equal variances 
+Null hypothesis = means are equal 
+Alternative hypothesis = means are not equal 
+what we need:
+# "statistic"   "parameter"   "p.value"  "conf.int"  "estimate" "null.value"  "alternative" "method"  "data.name"
